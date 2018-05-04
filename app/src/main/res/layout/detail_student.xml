@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    tools:context="com.example.penguinn.hugproject.DetailStudent">
+
+    <!--<WebView-->
+    <!--android:id="@+id/web_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--/>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="ข้อมูลนักเรียน"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/stu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/stu_lastname"
+            android:layout_alignRight="@+id/stu_lastname"
+            android:layout_below="@+id/profile"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="25dp"
+            android:text="ชื่อ"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/stu_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/stu_name"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:text="นามสกุล"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/stu_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/stu_lastname"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="25dp"
+            android:text="เบอร์โทร"
+            android:textSize="16dp" />
+
+        <TextView
+
+            android:id="@+id/parent_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/stu_phone"
+            android:layout_marginTop="30dp"
+            android:text="ข้อมูลผู้ปกครอง"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/parent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/parent_lastname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/parent_lastname"
+            android:layout_below="@+id/parent_profile"
+            android:layout_marginTop="21dp"
+            android:text="ชื่อ"
+            android:layout_marginLeft="25dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/parent_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/parent_name"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="25dp"
+            android:text="นามสกุล"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/parent_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/parent_lastname"
+            android:layout_marginTop="12dp"
+            android:text="เบอร์โทร"
+            android:layout_marginLeft="25dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/parent_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/parent_phone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/parent_phone"
+            android:layout_below="@+id/parent_phone"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="25dp"
+            android:text="อีเมล"
+            android:textSize="16dp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/latitude"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignEnd="@+id/parent_email"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignRight="@+id/parent_email"-->
+            <!--android:layout_below="@+id/parent_email"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:text="latitude"-->
+            <!--android:textSize="16dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_latitude"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignTop="@+id/latitude"-->
+            <!--android:layout_marginLeft="70dp"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_toEndOf="@+id/latitude"-->
+            <!--android:layout_toRightOf="@+id/latitude"-->
+            <!--android:text="ละติจูด" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/longitude"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignEnd="@+id/latitude"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignRight="@+id/latitude"-->
+            <!--android:layout_below="@+id/latitude"-->
+            <!--android:layout_marginTop="12dp"-->
+            <!--android:text="longitude"-->
+            <!--android:textSize="16dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_longitude"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignTop="@+id/longitude"-->
+            <!--android:layout_marginLeft="70dp"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_toEndOf="@+id/longitude"-->
+            <!--android:layout_toRightOf="@+id/longitude"-->
+            <!--android:text="ลองติจูด" />-->
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_back"
+            android:layout_alignBottom="@+id/btn_back"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:text="แก้ไข" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="38dp"
+            android:layout_marginRight="50dp"
+            android:text="กลับ" />
+
+
+        <TextView
+            android:id="@+id/txt_st_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/stu_lastname"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/stu_name"
+            android:layout_toRightOf="@+id/stu_name"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/txt_st_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/stu_phone"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/stu_lastname"
+            android:layout_toRightOf="@+id/stu_lastname"
+            android:text="lastname" />
+
+        <TextView
+            android:id="@+id/txt_st_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/stu_phone"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/stu_phone"
+            android:layout_toRightOf="@+id/stu_phone"
+            android:text="PhoneNumber" />
+
+        <TextView
+            android:id="@+id/txt_pa_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/parent_name"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/parent_name"
+            android:layout_toRightOf="@+id/parent_name"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/txt_pa_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/parent_phone"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/parent_lastname"
+            android:layout_toRightOf="@+id/parent_lastname"
+            android:text="lastname" />
+
+        <TextView
+            android:id="@+id/txt_pa_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/parent_email"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/parent_phone"
+            android:layout_toRightOf="@+id/parent_phone"
+            android:text="phone" />
+
+        <TextView
+            android:id="@+id/txt_pa_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/parent_email"
+            android:layout_marginLeft="70dp"
+            android:textSize="16dp"
+            android:layout_toEndOf="@+id/parent_email"
+            android:layout_toRightOf="@+id/parent_email"
+            android:text="email" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

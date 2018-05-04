@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "463597907264",
+    "firebase_url": "https://apphug-74b89.firebaseio.com",
+    "project_id": "apphug-74b89",
+    "storage_bucket": "apphug-74b89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463597907264:android:0061805ccc6f358f",
+        "android_client_info": {
+          "package_name": "com.example.penguinn.hugproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463597907264-6mg3vlqertgi0edpfok00gefqcr2gv0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.penguinn.hugproject",
+            "certificate_hash": "0f9df88d06d1f4e3cffbd6b0226d57ceff21baf9"
+          }
+        },
+        {
+          "client_id": "463597907264-d2qsidaiv7pgufda0lh1jvot5qio3j2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcGTWwRQFRFpIMCldYF1PWTtdYZWmly6g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463597907264-d2qsidaiv7pgufda0lh1jvot5qio3j2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
